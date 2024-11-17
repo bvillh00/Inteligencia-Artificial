@@ -1,6 +1,8 @@
 import sys
 
-from aima.search import Problem, best_first_graph_search
+sys.path.append("/usr/lib/python3/dist-packages/aima-python")
+
+from search import Problem, best_first_graph_search
 
 class TicTac(Problem):
     """
